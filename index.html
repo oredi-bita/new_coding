@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body >
+    <main>
+    <div class="intro">
+        <img src="https://th.bing.com/th/id/R.8d473f22d63f40121f22ade85669c721?rik=w7aK2Y6gaxQk6Q&riu=http%3a%2f%2f3.
+        bp.blogspot.com%2f-2F7nZnN7Z-M%2fUFNkI65w_eI%2fAAAAAAAAAKw%2fMOlRLN6wFAk%2fs1600%2fcars_hd_top_wallpapers.
+        jpg&ehk=Sv%2bu6XRGZPjJ5nuCC8JXUdaqxRkBCMq4d5yS%2by9PvUw%3d&risl=&pid=ImgRaw&r=0" alt=""width="">
+    <div class="title_desc">
+            <h1 id="title">New coding class/SIR</h1>
+           <p>Welcome to our Codust website's Git and GitHub tutorial, where you'll find a comprehensive collection of resources to master Git and GitHub. Our courses cover everything from the basics of Git, including commands and configuration, to exercises that reinforce your skills. We also provide in-depth instruction on GitHub, exploring topics such as working with remotes, setting up personal access tokens, and mastering the GitHub workflow. Through practical exercises and real-world examples, you'll gain the knowledge and confidence to collaborate effectively and manage your code repositories with ease. Whether you're new to version control or looking to enhance your existing skills, our courses will guide you on a journey to becoming proficient in Git and GitHub.</p>
+    </div>
+    </div>
+    <form onsubmit="return onSubmitHandler(event)">
+            <div class="input_field">
+               <label for="fullname">fullname</label>
+               <input type="full name"name="fullname"placeholder="Ente your name"
+               onchange="return fullNamechangeHandler(event)"
+               />
+              
+            </div>
+            <div class="input_field">
+                <label for="Email">Email</label>
+                <input type="Email"name="phone"placeholder="Ente your email adress"
+                onchange="return emailchangeHandler(event)"
+                />
+                
+             </div>
+             <div class="input_field">
+                <label for="photo">phone</label>
+                <input type="phone number"name="phone number"placeholder="Ente your phone number"
+                onchange="return phoneNumberchangeHandler(event)"
+                />
+             </div>
+          
+
+             <div class="input_field">
+                <label for="dob">birth day
+                </label>
+                <input type="date"name="birthday"placeholder="Enter your birthday"
+                onchange="return dobchangeHandler(event)"
+                />
+             </div>
+
+             <div class="input_field">
+                <label for="gender">Gender</label>
+                <select 
+                onchange="return genderlchangeHandler(event)">
+                    <option value="geder">Enter your Gender</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                   
+                </select>
+             </div>
+             <br>
+             <button  type="submit">Submit</button>
+             <br>
+             <br>
+             <br>
+    </form>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
